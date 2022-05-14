@@ -29,12 +29,7 @@ function App() {
 	const isRegister = modalOpen === 'register'
 
 	const handleSubmit = data => {
-		if (isLogin) {
-			login(data)
-		}
-		if (isRegister) {
-			register(data)
-		}
+		isLogin ? login(data) : register(data)
 	}
 
 	const register = async data => {
