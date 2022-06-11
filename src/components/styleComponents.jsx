@@ -1,8 +1,6 @@
 import styled from '@emotion/styled'
 import { Dialog as ReachDialog } from '@reach/dialog'
 
-// Mistake comment
-
 const buttonVariants = {
 	primary: {
 		background: '#3f51b5',
