@@ -7,14 +7,14 @@ const buttonVariants = {
 	primary: {
 		background: '#3f51b5',
 		color: 'white',
-		'&:hover,&:focus': {
+		'&:hover': {
 			opasity: '0.5',
 		},
 	},
 	secondary: {
 		background: '#f1f2f7',
 		color: '#434449',
-		'&:hover,&:focus': {
+		'&:hover': {
 			opasity: '0.5',
 		},
 	},
