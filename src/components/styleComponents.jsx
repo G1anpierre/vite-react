@@ -5,10 +5,16 @@ const buttonVariants = {
 	primary: {
 		background: '#3f51b5',
 		color: 'white',
+		'&:hover': {
+			opacity: '.5',
+		},
 	},
 	secondary: {
 		background: '#f1f2f7',
 		color: '#434449',
+		'&:hover': {
+			opacity: '.5',
+		},
 	},
 }
 
@@ -19,6 +25,7 @@ const Button = styled.button(
 		lineHeight: '1',
 		borderRadius: '3px',
 	},
+
 	({ variant = 'primary' }) => buttonVariants[variant]
 )
 
