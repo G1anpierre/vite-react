@@ -4,7 +4,6 @@ import { Button, Input, FormGroup } from './styleComponents'
 export const Form = ({ modal, onSubmit }) => {
 	const handleSubmit = e => {
 		e.preventDefault()
-		console.log('events :', e)
 		const { email, password } = e.target.elements
 		onSubmit({
 			email: email.value,
